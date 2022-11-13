@@ -8,14 +8,35 @@ h1{
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
+    font-family: Impact, serif;
 }
 
 h2{
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 15px;
+    font-family: Impact, serif;
 }
 
+hr{
+    height: 3px;
+  }
+  
+.item p{
+         display: inline-block;
+ }
+ 
+ .flavor, .dessert{
+                    text-align: left;
+                    width: 25%;
+ }
+ 
+ .price{
+         text-align: right;
+         width: 25%;
+ }
+ 
+ 
 .established{
     font-style: italic;
 }
